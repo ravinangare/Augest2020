@@ -25,6 +25,8 @@ public class clickDemo {
 		action.contextClick(rightClickBtn).build().perform();
 		
 		action.click(dymnamicClick).build().perform();
+		
+		//here we have to perform click operations using action class
 	}
 
 }
